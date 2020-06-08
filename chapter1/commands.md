@@ -3,8 +3,8 @@ docker build . -t node-service
 
 ## run docker
 docker run -d -p 8080:8080 node-service
-# -d for deamon
-# -p for forwared container 8080 port to the host 8080. host:container
+### -d for deamon
+### -p for forwared container 8080 port to the host 8080. host:container
 
 ## login to docker hub
 docker login
